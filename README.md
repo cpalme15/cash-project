@@ -57,8 +57,8 @@ import java.util.Scanner;
 		    System.out.printf("\nDollars%11s","="+dollars);
 		    System.out.printf("\nQuarters%10s","="+quarters);
 		    System.out.printf("\nDimes%13s","="+dimes);
-		    System.out.printf("\nNickels \t="+nickels);
-		    System.out.printf("\nCents\t\t="+cents);
+		    System.out.printf("\nNickels%11s","="+nickels);
+		    System.out.printf("\nCents%13s","="+cents);
 		    System.out.printf("\nThanks you for using Collin Palmer Cash register program");
 		    
 	}
