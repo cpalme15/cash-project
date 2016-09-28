@@ -29,13 +29,14 @@ import java.util.Scanner;
 		    int twentyfive=25;
 		    int ten=10;
 		    int five=5;
+		    char C;
 		    
 		    
-		    
-		    System.out.println("Enter amount of sale:");
+		    System.out.printf("Enter amount of sale:%16s","$");
 		    amountsale=k.nextDouble();
+		     
 		    
-		    System.out.println("Enter amount tendered by customer:");
+		    System.out.printf("Enter amount tendered by customer:%3s","$");
 		    amounttend=k.nextDouble();
 		    
 		    totalchange=(amounttend-amountsale);
@@ -52,13 +53,13 @@ import java.util.Scanner;
 		    cents=leftover;
 		    
 		    
-		    System.out.println("Total change	=$"+totalchange);
-		    System.out.println("Dollars\t\t="+dollars);
-		    System.out.println("Quarters\t="+quarters);
-		    System.out.println("Dimes   \t="+dimes);
-		    System.out.println("Nickels \t="+nickels);
-		    System.out.println("Cents\t\t="+cents);
-		    System.out.println("Thanks you for using Collin Palmer Cash register program");
+		    System.out.printf("Total change %9s","=$"+totalchange);
+		    System.out.printf("\nDollars%11s","="+dollars);
+		    System.out.printf("\nQuarters%10s","="+quarters);
+		    System.out.printf("\nDimes%13s","="+dimes);
+		    System.out.printf("\nNickels \t="+nickels);
+		    System.out.printf("\nCents\t\t="+cents);
+		    System.out.printf("\nThanks you for using Collin Palmer Cash register program");
 		    
 	}
 
